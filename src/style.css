@@ -1,0 +1,104 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Blue: hsl(212, 17%, 17%);
+    --Dark-Blue: hsl(212, 24%, 14%);
+    --Orange: hsl(25, 97%, 53%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+*,::after,::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 15px;
+    font-family: 'Barlow', sans-serif;
+    color: var(--White);
+}
+body{
+    background-color: var(--Very-Dark-Blue);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Card{
+    background-color: var(--Dark-Blue);
+    width:95%;
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 2rem;
+}
+.star{
+    background-color: var(--Blue);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+.para{
+    font-size: 0.9rem;
+    color: var(--Medium-Grey);
+    line-height: 1.5;
+}
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.67rem 0;
+}
+.points{
+    background-color: var(--Blue);
+    border-radius: 50%;
+    padding: 1rem 1.33rem;
+    color: var(--Light-Grey);
+    cursor: pointer;
+}
+.points:hover{
+    background-color: var(--Light-Grey);
+    color: var(--White);
+}
+.submit{
+    width: 100%;
+    background-color: var(--Orange);
+    color: var(--White);
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    border:none;
+    text-transform: uppercase;
+    padding: 0.67rem 0;
+    border-radius: 1.33rem;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+}
+.highlight{
+    background-color: var(--Orange);
+    color: var(--White);
+}
+.score{
+    background-color: var(--Blue);
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+    border:none;
+    color: orange;
+}
+.result-image{
+    margin: 1.67rem;
+}
+.result{
+    text-align:center;
+}
