@@ -18,7 +18,7 @@ This is my first react App, it is built as a practice project for my learning. I
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-solution-HJui-Vymq)
 - Live Site URL: [Live site URL](https://sourabh358.github.io/Interactive-rating-component/)
 
 ### Built with
